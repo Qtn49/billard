@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1578101147 source:/home/quentin/Documents/Cours/DUT/Info/Extra/BillardVal/rebond/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -6,9 +6,12 @@
 		<link rel="stylesheet" href="style.css" >
 	</head >
 	<body >
-		<canvas id="billard">
-		Votre navigateur ne supporte pas les canvas, shame on you !
-		</canvas>
+		<svg id="svg">
+			<ellipse id="ellipse" fill="white" stroke="black" />
+			<circle id="ball" fill="green" stroke="green" class="draggable" r="30" />
+		</svg>
+		<input type="number" id="coeff" >
+		<input type="button" value="lancer" id="lancer" >
 		<script src="script.js" ></script >
 	</body >
 </html >
